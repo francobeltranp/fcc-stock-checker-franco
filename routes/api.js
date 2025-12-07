@@ -1,7 +1,7 @@
 'use strict';
 
 const crypto = require('crypto');
-const stock = require('../models/stock');
+const Stock = require('../models/Stock');
 
 module.exports = function (app) {
 
